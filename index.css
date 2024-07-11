@@ -69,12 +69,12 @@ hr {
   position: relative;
   left: 1005px;
   margin: 30px;
-  bottom: 520px;
+  bottom: 550px;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 460px;
+  height: 500px;
   background-color: #f3f3f5;
 }
 #login h3 {
@@ -199,4 +199,32 @@ label {
   font-weight: bold;
   color: white;
   margin: 0px 10px 0px 5px;
+}
+
+.hint {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.loghint {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.hint small {
+  margin-left: 30px;
+}
+.hint strong {
+  margin-right: 5px;
+}
+.hint span {
+  margin-left: 30px;
 }
