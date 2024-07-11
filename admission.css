@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404040;
+}
+
+#container {
+  position: relative;
+  background-color: #ffffff;
+  width: 1400px;
+  height: 1900px;
+  margin: 0 auto;
+  position: relative;
+  left: 150px;
+  top: 130px;
+  border: 5px solid #404040;
+  /* border-top: 6px solid rgba(67, 177, 75); */
+  box-sizing: border-box;
+  box-shadow: 3px 20px 9px black;
+  border-radius: 20px;
+  /* background: url(./abu.logo.png); */
+  appearance: none;
+}
+
+#container h1 {
+  color: #008821;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 290px;
+  position: relative;
+  top: 70px;
+}
+
+#container h2 {
+  color: black;
+  margin-left: 500px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 70px;
+}
+
+h3 {
+  color: #008821;
+  margin-left: 550px;
+  margin-top: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+}
+
+.con {
+  /* border: 3px solid red; */
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 140px;
+  left: 50px;
+  background: url(./abu.logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.can {
+  /* border: 3px solid black; */
+  height: 190px;
+  width: 200px;
+  position: relative;
+  border-radius: 10px;
+  left: 1160px;
+  top: 60px;
+  background: url(./photo.me.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pan1 {
+  position: relative;
+  color: #008821;
+  font-size: 30px;
+  left: 50px;
+  bottom: 160px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.pan2 {
+  position: relative;
+  color: #008821;
+  font-size: 30px;
+  left: 1000px;
+  bottom: 147px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.pan3 {
+  position: relative;
+  color: black;
+  font-size: 40px;
+  left: 1155px;
+  bottom: 190px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.text {
+  position: relative;
+  color: black;
+  font-size: 40px;
+  left: 170px;
+  bottom: 150px;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #008821;
+  font-weight: bold;
+}
+
+.san1 {
+  position: relative;
+  bottom: 90px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.san2 {
+  position: relative;
+  left: 240px;
+  font-size: 30px;
+  bottom: 155px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.san3 {
+  position: relative;
+  left: 210px;
+  bottom: 150px;
+}
+
+.san4 {
+  position: relative;
+  left: 860px;
+  bottom: 170px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.san5 {
+  position: relative;
+  left: 1050px;
+  font-size: 30px;
+  bottom: 225px;
+  font-weight: bold;
+}
+
+.san6 {
+  position: relative;
+  left: 930px;
+  bottom: 226px;
+}
+
+.sin1 {
+  position: relative;
+  bottom: 180px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.sin2 {
+  position: relative;
+  left: 310px;
+  font-size: 30px;
+  bottom: 235px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.sin3 {
+  position: relative;
+  left: 210px;
+  bottom: 235px;
+}
+
+.sin4 {
+  position: relative;
+  left: 860px;
+  bottom: 260px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.sin5 {
+  position: relative;
+  left: 1050px;
+  font-size: 35px;
+  bottom: 315px;
+  font-weight: bold;
+}
+
+.sin6 {
+  position: relative;
+  left: 940px;
+  bottom: 318px;
+}
+
+.son1 {
+  position: relative;
+  bottom: 269px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.son2 {
+  position: relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 330px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.son3 {
+  position: relative;
+  left: 240px;
+  bottom: 325px;
+}
+
+.son4 {
+  position: relative;
+  left: 860px;
+  bottom: 350px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.son5 {
+  position: relative;
+  left: 1150px;
+  font-size: 35px;
+  bottom: 415px;
+  font-weight: bold;
+}
+
+.son6 {
+  position: relative;
+  left: 1110px;
+  bottom: 415px;
+}
+
+.sun1 {
+  position: relative;
+  bottom: 365px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.sun2 {
+  position: relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 420px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.sun3 {
+  position: relative;
+  left: 120px;
+  bottom: 420px;
+}
+
+.sun4 {
+  position: relative;
+  left: 860px;
+  bottom: 440px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.sun5 {
+  position: relative;
+  left: 1150px;
+  font-size: 35px;
+  bottom: 495px;
+  font-weight: bold;
+}
+
+.sun6 {
+  position: relative;
+  left: 960px;
+  bottom: 505px;
+}
+
+.fan1 {
+  position: relative;
+  bottom: 455px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.fan2 {
+  position: relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 510px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.fan3 {
+  position: relative;
+  left: 160px;
+  bottom: 510px;
+}
+
+.fan4 {
+  position: relative;
+  bottom: 455px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.fan5 {
+  position: relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 510px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.fan6 {
+  position: relative;
+  left: 160px;
+  bottom: 510px;
+}
+
+#text {
+  color: rgb(4, 3, 3);
+  position: relative;
+  bottom: 450px;
+  font-size: 30px;
+  left: 30px;
+  font-family: sans-serif;
+}
+
+.txt1 {
+  position: relative;
+}
+
+.txt2 {
+  position: relative;
+  top: 15px;
+}
+
+.txt3 {
+  position: relative;
+  top: 25px;
+}
+
+.an1 {
+  position: relative;
+  bottom: 368px;
+  left: 30px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.an2 {
+  position: relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 420px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.an3 {
+  position: relative;
+  left: 230px;
+  bottom: 460px;
+}
+
+.an5 {
+  position: relative;
+  left: 470px;
+  font-size: 30px;
+  bottom: 410px;
+  color: #008821;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.an4 {
+  position: relative;
+  bottom: 485px;
+  left: 860px;
+  font-size: 30px;
+  color: #008821;
+  font-weight: bold;
+}
+
+.an6 {
+  position: relative;
+  left: 930px;
+  bottom: 510px;
+}
+
+#outside {
+  border: 7px solid rgb(64, 64, 194);
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  bottom: 400px;
+  left: 920px;
+  transform: rotate(-30deg);
+}
+
+.inside {
+  border: 7px dotted rgb(109, 109, 182);
+  height: 170px;
+  width: 370px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border-radius: 20px;
+}
+
+.help {
+  border: 7px solid #404040;
+  background-color: #404040;
+  height: 250px;
+  width: 250px;
+}
+
+.is1 {
+  color: #716f6f;
+  font-size: 30px;
+  position: relative;
+  left: 30px;
+  bottom: 130px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.is2 {
+  position: relative;
+  color: #716f6f;
+  font-size: 24px;
+  bottom: 120px;
+  left: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.is3 {
+  position: relative;
+  color: #716f6f;
+  bottom: 110px;
+  font-size: 30px;
+  left: 150px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.barcode {
+  /* border: 5px solid #008821;
+  background-color: #008821; */
+  height: 210px;
+  width: 160px;
+  position: relative;
+  bottom: 640px;
+  left: 1200px;
+  background: url(./barcode\ image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  /* border: 3px solid red; */
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 790px;
+  left: 1230px;
+  background: url(./abu.logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mat {
+  position: relative;
+  bottom: 740px;
+  left: 1195px;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}

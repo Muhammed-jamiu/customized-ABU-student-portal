@@ -1,0 +1,582 @@
+body {
+  background-color: #404040;
+}
+
+#head h1 {
+  position: relative;
+  left: 90px;
+  bottom: 80px;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+#head h3 {
+  position: relative;
+  left: 90px;
+  bottom: 87px;
+  font-family: sans-serif;
+  color: #5cb85c;
+}
+
+#head img {
+  position: relative;
+  height: 90px;
+  top: 10px;
+  width: 100px;
+}
+P {
+  position: relative;
+  left: 958px;
+  bottom: 250px;
+  color: red;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+p:hover {
+  color: black;
+  font-size: 17px;
+}
+hr {
+  height: 3px;
+  background-color: #818080;
+  position: relative;
+  bottom: 280px;
+}
+#container {
+  position: relative;
+  background-color: #ffffff;
+  width: 1470px;
+  height: 2060px;
+  margin: 0 auto;
+  position: relative;
+  left: 150px;
+  top: 130px;
+  border: 5px solid #404040;
+  border-top: 6px solid rgba(67, 177, 75);
+}
+
+#line ul a {
+  margin: 27px;
+  font-size: 18px;
+  text-decoration: none;
+  width: 60px;
+  position: relative;
+  bottom: 280px;
+  right: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+}
+
+#line ul a:hover {
+  background-color: #5cb85c;
+  text-decoration: none;
+  width: 150px;
+  height: 20px;
+  border: 8px solid #5cb85c;
+  border-width: 20px;
+  border-radius: 7px;
+  color: white;
+}
+
+#pass {
+  border: 3px solid black;
+  position: relative;
+  bottom: 183px;
+  left: 840px;
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+  background: url(./photo.me.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#pass:hover {
+  width: 100px;
+  height: 100px;
+}
+
+#set {
+  margin-left: 40px;
+  position: relative;
+  left: 1260px;
+  bottom: 300px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+#set,
+#low {
+  color: white;
+  text-decoration: none;
+}
+
+#foot {
+  border: 3px solid #404040;
+  height: 200px;
+  width: 200px;
+  background-color: #404040;
+}
+
+.up {
+  border: 5px solid #5cb85c;
+  background-color: #5cb85c;
+  height: 60px;
+  width: 900px;
+  position: relative;
+  left: 545px;
+  bottom: 273px;
+}
+
+.active {
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 362px;
+  left: 1320px;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#con {
+  border: 3px solid dimgray;
+  height: 1660px;
+  width: 1430px;
+  position: relative;
+  left: 20px;
+  bottom: 350px;
+  box-sizing: border-box;
+  box-shadow: 3px 13px 9px black;
+  border-radius: 20px;
+}
+
+h2,
+h4 {
+  color: black;
+  position: relative;
+  left: 97px;
+  bottom: 70px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h4 {
+  position: relative;
+  bottom: 85px;
+}
+#head1 img {
+  width: 110px;
+  height: 90px;
+  position: relative;
+  top: 15px;
+}
+
+.para1 {
+  position: relative;
+  left: 30px;
+  bottom: 63px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.para2 {
+  position: relative;
+  left: 450px;
+  bottom: 94px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.para3 {
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.para4 {
+  position: relative;
+  left: 450px;
+  bottom: 94px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.para5 {
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.para6 {
+  position: relative;
+  left: 460px;
+  bottom: 94px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.face1 {
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.face2 {
+  position: relative;
+  left: 465px;
+  bottom: 94px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.face3 {
+  position: relative;
+  left: 660px;
+  bottom: 120px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.face4 {
+  position: relative;
+  left: 930px;
+  bottom: 150px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+#past {
+  /* border: 4px solid red; */
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 1050px;
+  bottom: 427px;
+  border-radius: 40px;
+  background: url(./photo.me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pace1 {
+  position: relative;
+  left: 30px;
+  bottom: 320px;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.pace2 {
+  position: relative;
+  left: 170px;
+  bottom: 350px;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.pace3 {
+  position: relative;
+  left: 470px;
+  bottom: 379px;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.pace4 {
+  position: relative;
+  left: 1200px;
+  bottom: 415px;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.some1 {
+  position: relative;
+  left: 30px;
+  bottom: 390px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.some2 {
+  position: relative;
+  left: 180px;
+  bottom: 420px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.some3 {
+  position: relative;
+  left: 450px;
+  bottom: 449px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.some4 {
+  position: relative;
+  left: 1300px;
+  bottom: 480px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.at1 {
+  position: relative;
+  left: 30px;
+  bottom: 449px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.at2 {
+  position: relative;
+  left: 180px;
+  bottom: 480px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.at3 {
+  position: relative;
+  left: 400px;
+  bottom: 510px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.at4 {
+  position: relative;
+  left: 1301px;
+  bottom: 550px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.is1 {
+  position: relative;
+  left: 30px;
+  bottom: 510px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.is2 {
+  position: relative;
+  left: 180px;
+  bottom: 535px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.is3 {
+  position: relative;
+  left: 400px;
+  bottom: 570px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.is4 {
+  position: relative;
+  left: 1301px;
+  bottom: 604px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.us1 {
+  position: relative;
+  left: 30px;
+  bottom: 570px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.us2 {
+  position: relative;
+  left: 180px;
+  bottom: 600px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.us3 {
+  position: relative;
+  left: 400px;
+  bottom: 630px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.us4 {
+  position: relative;
+  left: 1301px;
+  bottom: 668px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.let1 {
+  position: relative;
+  left: 30px;
+  bottom: 620px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.let2 {
+  position: relative;
+  left: 180px;
+  bottom: 650px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.let3 {
+  position: relative;
+  left: 400px;
+  bottom: 680px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.let4 {
+  position: relative;
+  left: 1301px;
+  bottom: 710px;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.total {
+  position: relative;
+  left: 1200px;
+  bottom: 680px;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#jet {
+  position: relative;
+  bottom: 500px;
+}
+
+#jet,
+.say {
+  color: red;
+  position: relative;
+  right: 860px;
+}
+
+#jet ol li {
+  color: black;
+  position: relative;
+  left: 840px;
+  margin: 20px;
+  bottom: 140px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.or {
+  position: relative;
+  bottom: 1540px;
+  font-size: 35px;
+  left: 40px;
+  font-weight: bold;
+}
+
+.ant {
+  border: solid 5px dimgray;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 865px;
+  left: 830px;
+  background: url(./barcode\ image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.exam {
+  color: black;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 810px;
+  font-size: 30px;
+  font-weight: bold;
+  left: 1050px;
+}
+
+#card {
+  color: black;
+  position: relative;
+  bottom: 615px;
+  font-size: 22px;
+  font-family: sans-serif;
+  left: 6px;
+  font-weight: bold;
+}
+
+#box {
+  position: relative;
+  bottom: 460px;
+  color: #5cb85c;
+  border: 5px solid #5cb85c;
+  background-color: #5cb85c;
+  height: 90px;
+  width: 1470px;
+  font-size: 25px;
+  right: 22px;
+}
+.box1 {
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-family: sans-serif;
+}
+.box2 {
+  color: white;
+  position: relative;
+  left: 1150px;
+  top: 5px;
+  font-family: sans-serif;
+}
+
+.front {
+  border: 4px solid red;
+  height: 50px;
+  width: 50px;
+}

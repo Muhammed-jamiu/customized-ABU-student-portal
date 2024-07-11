@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodation</title>
+    <link rel="stylesheet" href="accommodation.css" />
+    <link rel="icon" href="./abu.logo.png" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <img src="./abu.logo.png" height="60px" width="82px" />
+        <h1>Ahmadu Bello University</h1>
+        <h3>Zaria-Nigeria</h3>
+      </div>
+      <div id="pass"></div>
+      <p>MUHAMMED-JAMIU ABDULSALAM</p>
+
+      <button id="set"><a id="low" href="index.html">Logout</a></button>
+      <!--head-->
+      <hr />
+      <div id="line">
+        <ul>
+          <a href="Home.html">Dashborad</a>
+          <a href="profile.html">Profile</a>
+          <a href="fees.html">Fees</a>
+          <a href="coursereg.html">Course Registration</a>
+          <a href="accommodation.html">Accommodation</a>
+          <a href="examcard.html">Exam Card</a>
+          <a href="examresult.html">Exam Result</a>
+          <a href="evaluation.html">Evaluation</a>
+          <a href="exitform.html">Exit Form</a>
+        </ul>
+      </div>
+      <hr />
+
+      <marquee behavior="linear" direction="left"
+        >Copyright &copy; 2024. BY MUHAMMED-JAMIU</marquee
+      >
+
+      <div id="sat"></div>
+      <div id="text">Active</div>
+      <div id="call">
+        <div id="make">MAKE RESERVATION</div>
+
+        <form class="see1">
+          <label>Hostel:</label>
+          <select>
+            <option value="">-- All Hostel --</option>
+            <option value="">Aliyu Mustapha Hall(Main Campus)</option>
+            <option value="">Dan Fodio Hall (Main Campus)</option>
+            <option value="">Dangote Hostel Phase II (Main Campus)</option>
+            <option value="">ICSA Hall (Main Campus)</option>
+            <option value="">Shehu Idris Hall(Main Campus)</option>
+            <option value="">SRC LODGE (Main Campus)</option>
+          </select>
+        </form>
+        <form class="see2">
+          <label for="">Blocks</label>
+          <select name="" id="">
+            <option value="">All Blocks</option>
+          </select>
+        </form>
+        <div class="saw">Click here to show the available Rooms</div>
+        <div class="arrow">&rarr;</div>
+        <div id="saw">
+          &LongLeftArrow; Click here to see your Room Mates Detail
+        </div>
+
+        <button id="rooms">
+          <a
+            style="color: white; text-decoration: none; font-weight: bold"
+            href="noroom.html"
+            >Load Rooms</a
+          >
+        </button>
+
+        <button id="mate"><a href="roommate.html">Room Mate</a></button>
+      </div>
+
+      <div id="box">
+        <div class="box1">
+          Copyright&copy;2024 Ahmadu Bello University. All Rights Reserved
+        </div>
+        <div class="box2">FAQ | Help Desk | Support</div>
+      </div>
+    </div>
+    <!--container-->
+    <div class="go"></div>
+    <script type="text/javascript">
+      // alert("Welcome to your Dashbord Click OK to display this page ");
+      document.getElementById("low").onclick = function name(params) {
+        alert("Goodbey hope to see you again");
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,523 @@
+body {
+  background-color: #404040;
+}
+#head h1 {
+  position: relative;
+  left: 90px;
+  bottom: 80px;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+#head h3 {
+  position: relative;
+  left: 90px;
+  bottom: 87px;
+  font-family: sans-serif;
+  color: green;
+}
+
+#head img {
+  position: relative;
+  height: 90px;
+  top: 10px;
+  width: 100px;
+}
+P {
+  position: relative;
+  left: 958px;
+  bottom: 250px;
+  color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+hr {
+  height: 3px;
+  background-color: rgb(129, 128, 128);
+  position: relative;
+  bottom: 280px;
+}
+#container {
+  position: relative;
+  top: 7px;
+  background-color: #ffffff;
+  width: 1470px;
+  height: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border: 5px solid black;
+  border-top: 6px solid rgba(67, 177, 75);
+}
+
+#pass {
+  border: 3px solid black;
+  position: relative;
+  bottom: 183px;
+  left: 840px;
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+  background: url(./photo.me.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#set {
+  margin-left: 40px;
+  position: relative;
+  left: 1260px;
+  bottom: 300px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+#line ul a {
+  margin: 27px;
+  font-size: 18px;
+  text-decoration: none;
+  /* border: 5px solid green; */
+  width: 60px;
+  position: relative;
+  bottom: 280px;
+  right: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+}
+#line ul a:hover {
+  background-color: green;
+  text-decoration: none;
+  width: 150px;
+  height: 20px;
+  border: 8px solid green;
+  border-width: 20px;
+  border-radius: 7px;
+  color: white;
+}
+#passport {
+  /* border: 6px double black; */
+  height: 200px;
+  width: 200px;
+  /* background-color: black; */
+  position: relative;
+  bottom: 240px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  left: 20px;
+  background: url(./photo.me.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#port {
+  /* border: 2px solid black; */
+  height: 450px;
+  width: 350px;
+  background-color: rgb(95, 95, 239);
+  position: relative;
+  bottom: 250px;
+  margin-bottom: 1px;
+  left: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+#port ul li {
+  margin: 25px;
+  position: relative;
+  right: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#port ul li input {
+  background-color: white;
+  width: 228px;
+  height: 30px;
+  position: relative;
+  left: 90px;
+  bottom: 23px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+#set,
+#low {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+#main select {
+  background-color: red;
+  width: 200px;
+  margin: 20px;
+}
+
+#inside1 {
+  border: 2px solid rgb(141, 199, 141);
+  height: 40px;
+  background-color: rgb(143, 227, 143);
+}
+
+.out {
+  color: white;
+  background-color: rgb(214, 4, 4);
+  position: relative;
+  bottom: 340px;
+  left: 30px;
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  box-sizing: border-box;
+  box-shadow: 3px 8px 10px black;
+  border-radius: 10px;
+}
+.out:active {
+  color: red;
+  cursor: pointer;
+  background-color: white;
+}
+
+.out a {
+  text-decoration: none;
+  color: white;
+}
+
+.cut {
+  position: relative;
+  left: 400px;
+  bottom: 860px;
+  color: black;
+  font-size: 25px;
+  border: 1px solid black;
+  height: 35px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.cut2 {
+  position: relative;
+  left: 1060px;
+  bottom: 895px;
+  color: white;
+  font-size: 25px;
+  border: 1px solid blue;
+  background-color: rgb(40, 40, 239);
+  height: 35px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.cut a {
+  color: black;
+}
+.sina {
+  border: 3px solid rgb(215, 209, 209);
+  width: 1010px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  bottom: 847px;
+}
+
+.sina1 {
+  border: 1px solid rgb(215, 209, 209);
+  height: 40px;
+  width: 1010px;
+  position: relative;
+  left: 400px;
+  bottom: 1050px;
+  background-color: rgb(215, 209, 209);
+}
+
+.his1 {
+  color: black;
+  position: relative;
+  left: 450px;
+  z-index: 2;
+  bottom: 729px;
+  font-size: 25px;
+}
+.his2 {
+  border: 2px solid black;
+  background-color: black;
+  height: 2px;
+  width: 20px;
+  position: relative;
+  right: 35px;
+  bottom: 15px;
+  border-radius: 20px;
+}
+
+.all {
+  position: relative;
+  color: red;
+  bottom: 1030px;
+  left: 430px;
+  display: flex;
+  flex-direction: row;
+  /* word-spacing: 40px; */
+}
+
+.can1 {
+  color: black;
+  position: relative;
+  right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.can2 {
+  color: black;
+  position: relative;
+  left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.can3 {
+  color: black;
+  position: relative;
+  left: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.can4 {
+  color: black;
+  position: relative;
+  left: 80px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.can5 {
+  color: black;
+  position: relative;
+  left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.can6 {
+  color: red;
+  position: relative;
+  left: 120px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.can7 {
+  color: black;
+  position: relative;
+  left: 130px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.can8 {
+  color: black;
+  position: relative;
+  left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.conline {
+  border: 3px solid rgb(142, 139, 139);
+  height: 0px;
+  width: 990px;
+  position: relative;
+  bottom: 735px;
+  left: 410px;
+}
+
+.All {
+  position: relative;
+  color: red;
+  bottom: 1260px;
+  left: 430px;
+  display: flex;
+  flex-direction: row;
+  /* word-spacing: 40px; */
+}
+
+.san1 {
+  color: black;
+  position: relative;
+  left: 2px;
+  top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.san2 {
+  color: black;
+  position: relative;
+  top: 25px;
+  left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.san3 {
+  color: black;
+  position: relative;
+  left: 70px;
+  font-size: 25px;
+  font-weight: bold;
+  top: 25px;
+}
+.san4 {
+  color: black;
+  position: relative;
+  left: 85px;
+  font-size: 25px;
+  font-weight: bold;
+  top: 25px;
+}
+.san5 {
+  color: black;
+  position: relative;
+  left: 120px;
+  font-size: 25px;
+  font-weight: bold;
+  top: 25px;
+}
+.san6 {
+  color: red;
+  position: relative;
+  left: 190px;
+  font-size: 25px;
+  top: 25px;
+  font-weight: bold;
+}
+.san7 {
+  color: black;
+  top: 25px;
+  position: relative;
+  left: 220px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.see1 {
+  border: 4px solid rgb(215, 209, 209);
+  height: 160px;
+  width: 1010px;
+  position: relative;
+  bottom: 940px;
+  left: 400px;
+}
+
+.see2 {
+  border: 2px solid rgb(215, 209, 209);
+  background-color: rgb(215, 209, 209);
+  height: 40px;
+  width: 1012px;
+  position: relative;
+  bottom: 1105px;
+  left: 400px;
+}
+.inter {
+  color: black;
+  position: relative;
+  bottom: 897px;
+  left: 450px;
+  z-index: 6;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.kit {
+  border: 3px solid black;
+  height: 0px;
+  background-color: black;
+  width: 20px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 915px;
+  left: 415px;
+  z-index: 2;
+}
+
+.call {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  bottom: 1180px;
+  left: 440px;
+  display: flex;
+  flex-direction: row;
+}
+
+.call1 {
+  position: relative;
+  font-size: 25px;
+}
+
+.call2 {
+  position: relative;
+  left: 70px;
+  font-size: 25px;
+}
+
+.call3 {
+  position: relative;
+  left: 280px;
+  font-size: 25px;
+}
+.call4 {
+  position: relative;
+  left: 390px;
+  font-size: 25px;
+}
+
+.less {
+  border: 4px solid darkgray;
+  height: 0px;
+  width: 990px;
+  position: relative;
+  bottom: 1030px;
+  left: 410px;
+}
+
+#box {
+  position: relative;
+  bottom: 997px;
+  color: red;
+  left: 0px;
+  border: 3px solid #5cb85c;
+  background-color: #5cb85c;
+  height: 60px;
+  width: 1470px;
+}
+
+.box1 {
+  position: relative;
+  color: white;
+  left: 20px;
+  font-size: 25px;
+  top: 25px;
+}
+
+.box2 {
+  position: relative;
+  left: 1210px;
+  top: 0px;
+  color: white;
+  font-size: 20px;
+}

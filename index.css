@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  width: 100%;
+}
+body {
+  background-color: #404040;
+}
+
+#container {
+  position: relative;
+  top: 7px;
+  background-color: #ffffff;
+  width: 1470px;
+  height: 780px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border-top: 4px solid rgba(67, 177, 75);
+}
+
+#head h1 {
+  position: relative;
+  left: 80px;
+  bottom: 46px;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+#head h3 {
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  font-family: sans-serif;
+  color: green;
+}
+
+hr {
+  height: 7px;
+  background-color: rgb(129, 128, 128);
+  position: relative;
+  bottom: 27px;
+}
+#pass-one h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  color: dimgray;
+}
+
+#pass-one .one {
+  position: relative;
+  font-family: sans-serif;
+  left: 52px;
+}
+#pass-one .two {
+  position: relative;
+  left: 55px;
+  top: 8px;
+  font-family: sans-serif;
+}
+
+#login {
+  position: relative;
+  left: 1005px;
+  margin: 30px;
+  bottom: 520px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 460px;
+  background-color: #f3f3f5;
+}
+#login h3 {
+  position: relative;
+  left: 45px;
+  top: 50px;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: darkslategray;
+}
+#login img {
+  position: relative;
+  left: 140px;
+  top: 32px;
+  color: rgb(193, 191, 191);
+  background-color: #f3f3f5;
+  color: #f3f3f5;
+}
+.line {
+  border: 2px solid green;
+  background-color: green;
+  height: 1px;
+  width: 350px;
+  position: relative;
+  top: 70px;
+  left: 20px;
+  color: dimgray;
+}
+img {
+  background-color: red;
+}
+
+#btn {
+  position: relative;
+  top: 70px;
+  left: 293px;
+  height: 30px;
+  width: 80px;
+  color: white;
+  background-color: green;
+  border: none;
+}
+#btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  background-color: white;
+  padding: 15px;
+  width: 350px;
+  height: 45px;
+  position: relative;
+  left: 25px;
+  top: 58px;
+  margin-top: 30px;
+  border: 1px solid #f3f3f5;
+  border-radius: 5px;
+  outline-color: #e0e0e0;
+  font-size: 25px;
+}
+
+label {
+  position: relative;
+  left: 24px;
+  top: 80px;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+
+#pass-two {
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+#pass-two h1 {
+  color: dimgray;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+#pass-two .fone {
+  position: relative;
+  top: 10px;
+  margin: 5px;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+#pass-three {
+  position: relative;
+  top: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+}
+#pass-three ol li {
+  margin: 8px;
+  position: relative;
+  left: 22px;
+}
+#down {
+  background-color: rgb(67, 177, 75);
+  position: relative;
+  top: 126px;
+  height: 95px;
+  width: 1472px;
+  right: 60px;
+}
+
+#come1 {
+  position: relative;
+  top: 39px;
+  font-size: 17px;
+  left: 20px;
+  font-weight: bold;
+  color: white;
+}
+.come1 {
+  position: relative;
+  top: 27px;
+  left: 1190px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin: 0px 10px 0px 5px;
+}
