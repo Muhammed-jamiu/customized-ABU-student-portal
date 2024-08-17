@@ -1,5 +1,10 @@
 let dashborad = document.getElementById("dashboard");
 
-dashborad.addEventListener("mouseover", function () {
-  dashborad.style.bottom = "20px solid red";
+dashborad.addEventListener("click", function () {
+  dashborad.style.borderBottom = "10px solid green";
+});
+let profile = document.getElementById("profile");
+
+profile.addEventListener("click", function () {
+  dashborad.style.borderBottom = "10px solid green";
 });
