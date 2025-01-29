@@ -12,7 +12,12 @@
         <img src="./abu.logo.png" height="60px" width="82px" />
         <h1>Ahmadu Bello University</h1>
         <h3>Zaria-Nigeria</h3>
+        <div class="digital-clocks">
+          <div class="date"></div>
+          <div class="time">00:00:00</div>
+        </div>
       </div>
+
       <!--head-->
       <hr />
 
@@ -79,22 +84,28 @@
           <h3>Already have a user? Then login here</h3>
           <div class="line"></div>
           <div id="line"></div>
-          <form>
+          <form action="./Home.html" onsubmit="formSubmit()">
             <label>Matric No.</label>
             <br />
-            <input type="text" required />
+            <input
+              title="Enter Your Matric Number"
+              type="text"
+              required
+              class="-student-matric-number"
+            />
 
             <label>Password</label>
             <br />
             <input
+              title="Enter Your Password"
               type="password"
               required
               autofocus
-              id="wordEntered"
+              id="student-password"
               autocomplete="off"
             />
 
-            <button id="btn"><a class="btn" href="Home.html">Login</a></button>
+            <button id="btn">Login</button>
             <div class="hint">
               <small class="loghint">Login Hint</small>
               <small>Matric No.:<em class="me">U23MJ1045</em></small>
@@ -117,6 +128,70 @@
     <script type="text/javascript">
       // document.getElementsById("btn").onclick = function () {
       //   alert("welcome to your portal");
+      const logiBtn = document.querySelector("#btn");
+      const studentMatricNumber = document.querySelector(
+        ".student-matric-number"
+      );
+      const studentPassword = document.querySelector(".student-password");
+
+      function formSubmit() {
+        if (studentMatricNumber.value.trim() === "") {
+          alert("Sorry! Something went wrong! try again");
+        }
+      }
+
+      logiBtn.addEventListener("click", () => {
+        if (studentMatricNumber.value === "") {
+          alert("Sorry! Something Went wrong");
+        }
+      });
+
+      function dateFormated() {
+        const dated = document.querySelector(".date");
+        const timed = document.querySelector(".time");
+        const days = [
+          "Sunday",
+          "Monday",
+          "Tuesday.",
+          "Wensday.",
+          "Thurday.",
+          "Friday.",
+          "Saturday",
+        ];
+        const months = [
+          "January",
+          "Febuary",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+        const session = "PM";
+        const newDate = new Date();
+        const year = newDate.getFullYear();
+        const month = newDate.getMonth();
+        const day = newDate.getDay();
+        const min = newDate.getMinutes();
+        const hr = newDate.getHours();
+        const sec = newDate.getSeconds();
+        const time = newDate.getDate();
+
+        dated.innerHTML = ``;
+        timed.innerHTML = `${hr} : ${min} : ${sec} ${session}`;
+        if (hr > 12) {
+          hr = hr - 12;
+        }
+      }
+
+      setInterval(() => {
+        dateFormated();
+      }, 1000);
     </script>
   </body>
 </html>
